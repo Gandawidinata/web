@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Servis Anda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        .progress {
+            margin: 20px 0;
+        }
+        .progress-step {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .confirm-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .confirm-button:hover {
+            background-color: #218838;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Progress Servis Anda</h1>
+</header>
+
+<section>
+    <h2>Informasi Umum Servis</h2>
+    <p><strong>Nomor Servis:</strong> #123456</p>
+    <p><strong>Jenis Motor:</strong> Honda Vario 150</p>
+    <p><strong>Tanggal Servis Dimulai:</strong> 18 Oktober 2024</p>
+    
+    <div class="progress">
+        <h2>Progress Servis</h2>
+        <p class="progress-step">✅ Pengecekan Awal - Selesai</p>
+        <p class="progress-step">🔄 Penggantian Part - Sedang Diproses</p>
+        <p class="progress-step">❌ Servis Selesai - Belum Dimulai</p>
+    </div>
+    
+    <h2>Analisis Kerusakan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Part yang Rusak</th>
+                <th>Kondisi</th>
+                <th>Rekomendasi</th>
+                <th>Harga (Rp)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kampas Rem Depan</td>
+                <td>Sudah aus</td>
+                <td>Ganti baru</td>
+                <td>150,000</td>
+            </tr>
+            <tr>
+                <td>Oli Mesin</td>
+                <td>Kotor & hitam</td>
+                <td>Ganti baru</td>
+                <td>100,000</td>
+            </tr>
+            <tr>
+                <td>Ban Depan</td>
+                <td>Retak & tipis</td>
+                <td>Ganti baru</td>
+                <td>300,000</td>
+            </tr>
+            <tr>
+                <td>Aki</td>
+                <td>Sudah lemah</td>
+                <td>Ganti baru</td>
+                <td>350,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="total">Total Estimasi Biaya</td>
+                <td class="total">900,000</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <a href="tugas11.html" class="confirm-button">Konfirmasi dan Lanjut ke Pembayaran</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 Bengkel Motor Sejahtera</p>
+</footer>
+
+</body>
+</html>

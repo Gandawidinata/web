@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struk Pembayaran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        .total {
+            font-size: 24px;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .message {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+            color: #555;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Struk Pembayaran</h1>
+</header>
+
+<section>
+    <h2>Terima Kasih!</h2>
+    <p>Berikut adalah detail pembayaran Anda:</p>
+    <p><strong>Nomor Servis:</strong> #123456</p>
+    <p><strong>Tanggal Pembayaran:</strong> 18 Oktober 2024</p>
+    <p><strong>Metode Pembayaran:</strong> Transfer Bank</p>
+    
+    <h2>Rincian Biaya</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Part</th>
+                <th>Kondisi</th>
+                <th>Rekomendasi</th>
+                <th>Harga (Rp)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kampas Rem Depan</td>
+                <td>Sudah aus</td>
+                <td>Ganti baru</td>
+                <td>150,000</td>
+            </tr>
+            <tr>
+                <td>Oli Mesin</td>
+                <td>Kotor & hitam</td>
+                <td>Ganti baru</td>
+                <td>100,000</td>
+            </tr>
+            <tr>
+                <td>Ban Depan</td>
+                <td>Retak & tipis</td>
+                <td>Ganti baru</td>
+                <td>300,000</td>
+            </tr>
+            <tr>
+                <td>Aki</td>
+                <td>Sudah lemah</td>
+                <td>Ganti baru</td>
+                <td>350,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="total">Total Estimasi Biaya</td>
+                <td class="total">900,000</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <div class="message">
+        <p>Silakan ditunggu ya, Mas/Mba!</p>
+        <p>Proses servis motor Anda sedang dilakukan.</p>
+        <p>Kami akan menghubungi Anda segera setelah servis selesai.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Bengkel Motor Sejahtera</p>
+</footer>
+
+</body>
+</html>

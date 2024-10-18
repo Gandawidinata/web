@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Servis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        form {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        input, select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Formulir Pendaftaran Servis</h1>
+</header>
+
+<main>
+    <form action="tugas9.html" method="POST">
+        <label for="nama">Nama Lengkap</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Nama Lengkap Anda" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="Email Anda" required><br>
+
+        <label for="nomor">Nomor Telepon</label><br>
+        <input type="tel" id="nomor" name="nomor" placeholder="Nomor Telepon Anda" required><br>
+
+        <label for="motor">Jenis Motor</label><br>
+        <select id="motor" name="motor" required>
+            <option value="">Pilih Jenis Motor</option>
+            <option value="Matic">Matic</option>
+            <option value="Sport">Sport</option>
+            <option value="Bebek">Bebek</option>
+            <option value="Lainnya">Lainnya</option>
+        </select><br>
+
+        <label for="tanggal">Tanggal Servis</label><br>
+        <input type="date" id="tanggal" name="tanggal" required><br>
+
+        <label for="layanan">Pilih Layanan</label><br>
+        <select id="layanan" name="layanan" required>
+            <option value="">Pilih Layanan</option>
+            <option value="Servis Berkala">Servis Berkala</option>
+            <option value="Ganti Oli">Ganti Oli</option>
+            <option value="Ganti Ban">Ganti Ban</option>
+            <option value="Tune Up">Tune Up</option>
+        </select><br>
+
+        <button type="submit">Daftar Servis</button>
+    </form>
+</main>
+
+</body>
+</html>
